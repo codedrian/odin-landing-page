@@ -109,18 +109,18 @@ section .cat2 img{
 }
 .section3{
     background-color: #E5E7EB;
-    height: 85vh;
+    height: 100%;
     width: auto;
     position: relative;
     display: flex;
     flex-direction: row;  
-    align-items: center;
+    justify-content: center;
     
 }
 .section3 div{
     position: relative;
     flex: 1 1 auto;
- 
+    
 }
 .section3 img{
     position: relative;
@@ -128,7 +128,8 @@ section .cat2 img{
     width: 200px;
     height: 59vh;
     border-radius: 180px 180px 180px 180px;  
-
+    display: flex;
+    justify-content: center;
 }
 
 .section3 h2{
@@ -136,20 +137,21 @@ section .cat2 img{
     font-style: italic;
     color: #1F2937;
     line-height: .9;
-    padding: 30px 50px 30px 50px; 
+    padding: 20px 50px;
    
 }
 .section3 h3{
     position: relative;
-    left: 50%;
+    left: 20%;
     padding-bottom: 30px;
     width: 50%;
 }
 .section3 p{
+    position: relative;
     font-size: 18px;
     position: relative;
-    padding: 10px 0px 30px 50px;
     width: 50%;
+    padding: 20px 50px;
 }
     
 
